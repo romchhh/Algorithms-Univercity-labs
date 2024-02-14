@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <TextView
+        android:id="@+id/textViewTop"
+        android:layout_width="365dp"
+        android:layout_height="112dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/white"
+        android:text="\n                               Функція \n\n           f=∏  i=1 n ​  (a _i ​  ∑  j=1 p ​  b _j ​)"
+        android:textColor="@android:color/black"
+
+
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText_a_values"
+        android:layout_width="374dp"
+        android:layout_height="58dp"
+        android:digits="0123456789,"
+        android:hint="Введіть значення для a_i (через кому)"
+        android:inputType="numberDecimal"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/editText_b_values"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789,"
+        android:hint="Введіть значення для b_j (через кому)"
+        android:inputType="numberDecimal"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="211dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Calculate"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Відповідь:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal"
+        android:text="\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n© Лабораторна номер 1 АМО"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="14sp" />
+
+</LinearLayout>

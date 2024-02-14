@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text=" Y1 = sin^2(a+b)+ cos^2(a-b)  "
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextA"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Введіть значення для a"
+            android:inputType="numberDecimal"
+            android:textSize="20sp"
+            tools:ignore="LabelFor" />
+
+        <EditText
+            android:id="@+id/editTextB"
+            android:layout_width="379dp"
+            android:layout_height="59dp"
+            android:hint="Введіть значення для b"
+            android:inputType="numberDecimal"
+            android:textSize="20sp"
+            tools:ignore="LabelFor" />
+
+        <Button
+            android:id="@+id/buttonCalculate"
+            android:layout_width="211dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Calculate"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/textViewResult"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="16dp"
+            android:text="Відповідь:"
+            android:textSize="24sp" />
+
+        <!-- Переміщений TextView з ліцензією на самий низ -->
+        <TextView
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_marginTop="8dp"
+            android:gravity="center_horizontal"
+            android:text="\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n© Лабораторна номер 1 АМО"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</layout>
