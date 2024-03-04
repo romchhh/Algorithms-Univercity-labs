@@ -1,50 +1,44 @@
-# android_apps_university_labs
+# Sorting Visualizer with PyQt
 
-This repository contains labs for the university subject "Algorithms and Calculation Methods" related to Android application development.
+![Sorting Visualizer Preview](https://github.com/romchhh/Algorithms-Univercity-labs/assets/123520267/8cb5d76a-36db-4dce-9ff0-9770ff1d6a34)
 
-## Overview
+This project is a sorting visualizer implemented using PyQt. It allows users to either input a list manually or choose a file with a drag and drop system. Once the list is ready, users can initiate the sorting process with a click of a button.
 
-In this repository, you will find a collection of labs designed to reinforce concepts and techniques covered in the "Algorithms and Calculation Methods" course. Each lab focuses on a specific aspect of Android application development, allowing students to gain hands-on experience and practical skills.
+## Features
 
-## Labs
+- **Drag and Drop System**: Easily choose a file containing the list to be sorted.
+- **Visualization**: See the sorting process in action, making it easier to understand how sorting algorithms work.
+- **Theoretical and Practical Analysis**: Provides graphical representations for both theoretical and practical aspects of sorting algorithms.
 
-1. **Lab 1: Introduction to Android Development**
-   - Overview of Android Studio IDE
-   - Creating a simple "Hello World" Android app
-   - Understanding basic UI components
-
-2. **Lab 2: User Interaction and Layouts**
-   - Handling user input using buttons and text fields
-   - Exploring different layout types (linear layout, relative layout, etc.)
-   - Implementing responsive UI design principles
-
-3. **Lab 3: Data Persistence**
-   - Saving and retrieving data using SharedPreferences
-   - Working with SQLite databases for local storage
-   - Understanding data synchronization with online databases
-
-4. **Lab 4: Networking and Web Services**
-   - Making HTTP requests using Retrofit library
-   - Parsing JSON responses and handling data
-   - Implementing RESTful API calls in Android apps
+![Drag and Drop System](https://github.com/romchhh/Algorithms-Univercity-labs/assets/123520267/20b4d28e-5585-4e0b-aa64-637b8ebe0924)
 
 ## Getting Started
 
-To get started with the labs, follow these steps:
+To get started with this project, follow these steps:
 
-1. Clone this repository to your local machine using `git clone`.
-2. Open the desired lab folder in Android Studio.
-3. Follow the instructions provided in the lab's README.md file to complete the exercises and tasks.
+1. Clone this repository.
+2. Install the necessary dependencies (PyQt, etc.).
+3. Run the application and start sorting!
 
-## Contribution
+## Usage
 
-Contributions to the android_apps_university_labs repository are welcome! If you have suggestions, improvements, or additional labs to contribute, feel free to open a pull request.
+1. Launch the application.
+2. Either input a list manually or drag and drop a file containing the list.
+3. Click the "Sort" button to initiate the sorting process.
+4. Watch as the sorting algorithm visualizes the sorting process.
+5. Analyze the theoretical and practical performance of the sorting algorithm using the provided graphics.
+
+![Sorting Process](https://github.com/romchhh/Algorithms-Univercity-labs/assets/123520267/9834de94-d469-420d-9d5b-79f51459c2b6)
+
+## Contributing
+
+Contributions are welcome! If you have any ideas for improvements or new features, feel free to open an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
-Special thanks to the instructors and contributors who have helped develop and refine these labs for educational purposes.
+- Special thanks to [romchhh](https://github.com/romchhh) for the inspiration and initial implementation.
 
