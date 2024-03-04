@@ -1,4 +1,4 @@
-# android_apps_university_labs
+# Algorithms-Univercity-labs
 
 This repository contains labs for the university subject "Algorithms and Calculation Methods" related to Android application development.
 
